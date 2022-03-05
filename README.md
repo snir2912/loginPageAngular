@@ -1,4 +1,5 @@
 # LoginPage
+send data from child component to parent component. 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
 
