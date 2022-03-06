@@ -1,0 +1,30 @@
+.usersLlist {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2 {
+    color: blueviolet;
+    text-align: center;
+    font-size: 42px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px #000000;
+}
+
+@media screen and (max-width: 768px) {
+    .usersLlist {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    h2 {
+        color: blueviolet;
+        text-align: center;
+        font-size: 28px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-shadow: 2px 2px #000000;
+    }
+}

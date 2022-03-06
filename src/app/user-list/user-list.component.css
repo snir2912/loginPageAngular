@@ -1,0 +1,35 @@
+.usersList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p {
+    color: black;
+    text-align: center;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .usersList {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    p {
+        color: black;
+        text-align: center;
+        font-size: 16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    span {
+        text-decoration: underline;
+        font-weight: bold;
+    }
+}

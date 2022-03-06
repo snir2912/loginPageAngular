@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 48px;
+    padding-top: 120px;
 }
 
 .formWrap {
@@ -29,8 +29,46 @@ input {
     font-weight: bold;
     font-size: 20px;
     text-shadow: 2px 2px #000000;
+    box-shadow: 4px 4px 4px 5px #888888;
 }
 
 .loginBtn:hover {
     transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 28px;
+        padding-top: 100px;
+    }
+    .formWrap {
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+    }
+    input {
+        padding: 16px 0px;
+        margin: 10px 0px;
+        border-radius: 12px;
+        padding-left: 10px;
+        font-size: 18px;
+        color: blueviolet;
+    }
+    .loginBtn {
+        padding: 16px 0px;
+        margin-top: 10px;
+        border-radius: 12px;
+        background-color: blueviolet;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        text-shadow: 2px 2px #000000;
+        box-shadow: 4px 4px 4px 5px #888888;
+    }
+    .loginBtn:hover {
+        transform: scale(1.1);
+    }
 }

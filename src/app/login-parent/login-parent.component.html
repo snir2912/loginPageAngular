@@ -1,8 +1,5 @@
-<h1>users list</h1>
-
-<h2>add new user</h2>
 <app-login-form (AddUser)="onUserAdded($event)"></app-login-form>
-
-<h2>The list</h2>
-
-<app-user-list *ngFor="let user of users" [user]="user"></app-user-list>
+<div class="usersLlist">
+    <h2>Users list</h2>
+    <app-user-list *ngFor="let user of users" [user]="user"></app-user-list>
+</div>

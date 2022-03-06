@@ -6,6 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { LoginFormComponent } from './login-form/login-form.component';
 import { LoginParentComponent } from './login-parent/login-parent.component';
 import { UserListComponent } from './user-list/user-list.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { UserListComponent } from './user-list/user-list.component';
     HeaderComponent,
     LoginFormComponent,
     LoginParentComponent,
-    UserListComponent
+    UserListComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
